@@ -54,7 +54,7 @@
       <!-- end of nav -->
 
       <!-- button getstarted -->
-      <a href="signuppage.html"><button type="button" class="btn btn-dark btn-lg rounded-lg">Get Started</button></a>
+      <a href="{{route('registerForm')}}"><button type="button" class="btn btn-dark btn-lg rounded-lg">Get Started</button></a>
     </nav>
     <!-- end of Navbar -->
 
