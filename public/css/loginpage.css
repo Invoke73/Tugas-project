@@ -1,0 +1,59 @@
+/* Basic element */
+:root {
+    --primary-color: #ffff;
+    --secondary-color: #000;
+    --third-color: #2CF7F7;
+    --primary-color-dark: #B9FF66;
+    --text-dark: #111827;
+    --text-light: #6b7280;
+    --white: #ffffff;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .full-screen-container {
+    height: 100vh;
+  }
+  .full-height-col {
+    height: 100%;
+  }
+
+  .shadow-img {
+    filter: drop-shadow(30px 10px 5px  rgba(211, 211, 211, 1.0)) ;
+  }
+
+  .form-group input{
+    margin-bottom: 10px;
+    width: 400px;
+    border-radius: 8px;
+  }
+  
+  .or-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ccc;
+    margin: 1.5rem 0;
+  }
+  .or-divider::before,
+  .or-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+  }
+  .or-divider:not(:empty)::before {
+    margin-right: .5em;
+  }
+  .or-divider:not(:empty)::after {
+    margin-left: .5em;
+  }
